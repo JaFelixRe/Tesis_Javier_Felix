@@ -1,0 +1,11 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:srv/PlatformVel.srv",
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:msg/MotorVels.msg",
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:msg/ImgData.msg",
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:srv/ControlPidStart.srv",
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:msg/PlatState.msg",
+    "/home/javierfr/Tesis_ws/V1/src/interfaces:msg/ControlData.msg"
+  ]
+}
