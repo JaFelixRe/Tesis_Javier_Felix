@@ -69,6 +69,10 @@ rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapt
 rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/srv/ControlPidStart.idl
 rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/msg/PlatState.idl
 rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/msg/ControlData.idl
+rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/msg/MotorVelsWArm.idl
+rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/msg/LimitSwitch.idl
+rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/srv/RobotVel.idl
+rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp: rosidl_adapter/interfaces/msg/RobotState.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
@@ -86,6 +90,18 @@ rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp: rosidl_typesup
 
 rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp
+
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp
+
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp
+
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp
+
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp
 
 CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.o: rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp
@@ -165,6 +181,58 @@ CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.s
 
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o: rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o -c /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp > CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o: rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o -c /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp > CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o: rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o -c /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp > CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o: CMakeFiles/interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o: rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o -c /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp > CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i
+
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp -o CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s
+
 # Object files for target interfaces__rosidl_typesupport_c
 interfaces__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.o" \
@@ -172,7 +240,11 @@ interfaces__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp.o" \
 "CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.o" \
-"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.o"
+"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o" \
+"CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o"
 
 # External object files for target interfaces__rosidl_typesupport_c
 interfaces__rosidl_typesupport_c_EXTERNAL_OBJECTS =
@@ -183,13 +255,17 @@ libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesuppor
 libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp.o
 libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.o
 libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.o
+libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o
+libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o
+libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o
 libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make
 libinterfaces__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 libinterfaces__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librosidl_runtime_c.so
 libinterfaces__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librcpputils.so
 libinterfaces__rosidl_typesupport_c.so: /opt/ros/foxy/lib/librcutils.so
 libinterfaces__rosidl_typesupport_c.so: CMakeFiles/interfaces__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX shared library libinterfaces__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library libinterfaces__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interfaces__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -207,6 +283,10 @@ CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/int
 CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp
 CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp
 CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp
+CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp
 	cd /home/javierfr/Tesis_ws/V1/build/interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/javierfr/Tesis_ws/V1/src/interfaces /home/javierfr/Tesis_ws/V1/src/interfaces /home/javierfr/Tesis_ws/V1/build/interfaces /home/javierfr/Tesis_ws/V1/build/interfaces /home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interfaces__rosidl_typesupport_c.dir/depend
 

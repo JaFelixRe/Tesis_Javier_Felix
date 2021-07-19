@@ -77,6 +77,22 @@ CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/control_data.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__builder.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__struct.hpp
 CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/motor_vels_w_arm.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/limit_switch.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/robot_vel.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__traits.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/robot_state.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__builder.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__struct.hpp
+CMakeFiles/interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__traits.hpp
 
 
 rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: /opt/ros/foxy/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -100,6 +116,10 @@ rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/
 rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/srv/ControlPidStart.idl
 rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/msg/PlatState.idl
 rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/msg/ControlData.idl
+rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/msg/MotorVelsWArm.idl
+rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/msg/LimitSwitch.idl
+rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/srv/RobotVel.idl
+rosidl_generator_cpp/interfaces/srv/platform_vel.hpp: rosidl_adapter/interfaces/msg/RobotState.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_cpp__arguments.json
 
@@ -172,6 +192,54 @@ rosidl_generator_cpp/interfaces/msg/detail/control_data__struct.hpp: rosidl_gene
 rosidl_generator_cpp/interfaces/msg/detail/control_data__traits.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/control_data__traits.hpp
 
+rosidl_generator_cpp/interfaces/msg/motor_vels_w_arm.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/motor_vels_w_arm.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__builder.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__builder.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__struct.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__struct.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__traits.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__traits.hpp
+
+rosidl_generator_cpp/interfaces/msg/limit_switch.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/limit_switch.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/limit_switch__builder.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/limit_switch__builder.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/limit_switch__struct.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/limit_switch__struct.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/limit_switch__traits.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/limit_switch__traits.hpp
+
+rosidl_generator_cpp/interfaces/srv/robot_vel.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/robot_vel.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/robot_vel__builder.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/robot_vel__builder.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/robot_vel__struct.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/robot_vel__struct.hpp
+
+rosidl_generator_cpp/interfaces/srv/detail/robot_vel__traits.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/srv/detail/robot_vel__traits.hpp
+
+rosidl_generator_cpp/interfaces/msg/robot_state.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/robot_state.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/robot_state__builder.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/robot_state__builder.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/robot_state__struct.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/robot_state__struct.hpp
+
+rosidl_generator_cpp/interfaces/msg/detail/robot_state__traits.hpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/interfaces/msg/detail/robot_state__traits.hpp
+
 interfaces__cpp: CMakeFiles/interfaces__cpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/platform_vel.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/platform_vel__builder.hpp
@@ -197,6 +265,22 @@ interfaces__cpp: rosidl_generator_cpp/interfaces/msg/control_data.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__builder.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__struct.hpp
 interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/control_data__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/motor_vels_w_arm.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/motor_vels_w_arm__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/limit_switch.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/limit_switch__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/robot_vel.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/srv/detail/robot_vel__traits.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/robot_state.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__builder.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__struct.hpp
+interfaces__cpp: rosidl_generator_cpp/interfaces/msg/detail/robot_state__traits.hpp
 interfaces__cpp: CMakeFiles/interfaces__cpp.dir/build.make
 
 .PHONY : interfaces__cpp

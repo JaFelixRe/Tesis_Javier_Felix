@@ -6,10 +6,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -31,9 +35,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp"
   )
 
 

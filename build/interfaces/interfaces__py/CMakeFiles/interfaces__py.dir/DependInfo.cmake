@@ -12,15 +12,23 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_control_data_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_img_data.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_img_data_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_limit_switch.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_limit_switch_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_plat_state.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_plat_state_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_robot_state.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_robot_state_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/__init__.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_control_pid_start.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_control_pid_start_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_platform_vel.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_platform_vel_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_robot_vel.py" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_robot_vel_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

@@ -2,6 +2,7 @@
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/lib/inv_kinematics_pkg/platform1_vel_test_client
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/lib/inv_kinematics_pkg/platform2_vel_server
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/lib/inv_kinematics_pkg/platform2_vel_test_client
+/home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/lib/inv_kinematics_pkg/robot1_vel_server
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/share/ament_index/resource_index/package_run_dependencies/inv_kinematics_pkg
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/share/ament_index/resource_index/parent_prefix_path/inv_kinematics_pkg
 /home/javierfr/Tesis_ws/V1/install/inv_kinematics_pkg/share/inv_kinematics_pkg/environment/ament_prefix_path.sh

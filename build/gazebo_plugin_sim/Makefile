@@ -68,27 +68,15 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -114,15 +102,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target test
+test/fast: test
 
-.PHONY : list_install_components/fast
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -134,6 +123,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,30 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named platform1_plugin
+# Target rules for targets named platform2_plugin
 
 # Build rule for target.
-platform1_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform1_plugin
-.PHONY : platform1_plugin
+platform2_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform2_plugin
+.PHONY : platform2_plugin
 
 # fast build rule for target.
-platform1_plugin/fast:
-	$(MAKE) -f CMakeFiles/platform1_plugin.dir/build.make CMakeFiles/platform1_plugin.dir/build
-.PHONY : platform1_plugin/fast
-
-#=============================================================================
-# Target rules for targets named platform_plugin_test
-
-# Build rule for target.
-platform_plugin_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform_plugin_test
-.PHONY : platform_plugin_test
-
-# fast build rule for target.
-platform_plugin_test/fast:
-	$(MAKE) -f CMakeFiles/platform_plugin_test.dir/build.make CMakeFiles/platform_plugin_test.dir/build
-.PHONY : platform_plugin_test/fast
+platform2_plugin/fast:
+	$(MAKE) -f CMakeFiles/platform2_plugin.dir/build.make CMakeFiles/platform2_plugin.dir/build
+.PHONY : platform2_plugin/fast
 
 #=============================================================================
 # Target rules for targets named gazebo_plugin_sim_uninstall
@@ -207,17 +194,43 @@ gazebo_plugin_sim_uninstall/fast:
 .PHONY : gazebo_plugin_sim_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named platform2_plugin
+# Target rules for targets named platform1_plugin
 
 # Build rule for target.
-platform2_plugin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform2_plugin
-.PHONY : platform2_plugin
+platform1_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform1_plugin
+.PHONY : platform1_plugin
 
 # fast build rule for target.
-platform2_plugin/fast:
-	$(MAKE) -f CMakeFiles/platform2_plugin.dir/build.make CMakeFiles/platform2_plugin.dir/build
-.PHONY : platform2_plugin/fast
+platform1_plugin/fast:
+	$(MAKE) -f CMakeFiles/platform1_plugin.dir/build.make CMakeFiles/platform1_plugin.dir/build
+.PHONY : platform1_plugin/fast
+
+#=============================================================================
+# Target rules for targets named robot1_plugin
+
+# Build rule for target.
+robot1_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot1_plugin
+.PHONY : robot1_plugin
+
+# fast build rule for target.
+robot1_plugin/fast:
+	$(MAKE) -f CMakeFiles/robot1_plugin.dir/build.make CMakeFiles/robot1_plugin.dir/build
+.PHONY : robot1_plugin/fast
+
+#=============================================================================
+# Target rules for targets named robot2_plugin
+
+# Build rule for target.
+robot2_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot2_plugin
+.PHONY : robot2_plugin
+
+# fast build rule for target.
+robot2_plugin/fast:
+	$(MAKE) -f CMakeFiles/robot2_plugin.dir/build.make CMakeFiles/robot2_plugin.dir/build
+.PHONY : robot2_plugin/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -231,6 +244,19 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named platform_plugin_test
+
+# Build rule for target.
+platform_plugin_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform_plugin_test
+.PHONY : platform_plugin_test
+
+# fast build rule for target.
+platform_plugin_test/fast:
+	$(MAKE) -f CMakeFiles/platform_plugin_test.dir/build.make CMakeFiles/platform_plugin_test.dir/build
+.PHONY : platform_plugin_test/fast
 
 src/platform1_plugin.o: src/platform1_plugin.cpp.o
 
@@ -313,6 +339,60 @@ src/platform_plugin_test.cpp.s:
 	$(MAKE) -f CMakeFiles/platform_plugin_test.dir/build.make CMakeFiles/platform_plugin_test.dir/src/platform_plugin_test.cpp.s
 .PHONY : src/platform_plugin_test.cpp.s
 
+src/robot1_plugin.o: src/robot1_plugin.cpp.o
+
+.PHONY : src/robot1_plugin.o
+
+# target to build an object file
+src/robot1_plugin.cpp.o:
+	$(MAKE) -f CMakeFiles/robot1_plugin.dir/build.make CMakeFiles/robot1_plugin.dir/src/robot1_plugin.cpp.o
+.PHONY : src/robot1_plugin.cpp.o
+
+src/robot1_plugin.i: src/robot1_plugin.cpp.i
+
+.PHONY : src/robot1_plugin.i
+
+# target to preprocess a source file
+src/robot1_plugin.cpp.i:
+	$(MAKE) -f CMakeFiles/robot1_plugin.dir/build.make CMakeFiles/robot1_plugin.dir/src/robot1_plugin.cpp.i
+.PHONY : src/robot1_plugin.cpp.i
+
+src/robot1_plugin.s: src/robot1_plugin.cpp.s
+
+.PHONY : src/robot1_plugin.s
+
+# target to generate assembly for a file
+src/robot1_plugin.cpp.s:
+	$(MAKE) -f CMakeFiles/robot1_plugin.dir/build.make CMakeFiles/robot1_plugin.dir/src/robot1_plugin.cpp.s
+.PHONY : src/robot1_plugin.cpp.s
+
+src/robot2_plugin.o: src/robot2_plugin.cpp.o
+
+.PHONY : src/robot2_plugin.o
+
+# target to build an object file
+src/robot2_plugin.cpp.o:
+	$(MAKE) -f CMakeFiles/robot2_plugin.dir/build.make CMakeFiles/robot2_plugin.dir/src/robot2_plugin.cpp.o
+.PHONY : src/robot2_plugin.cpp.o
+
+src/robot2_plugin.i: src/robot2_plugin.cpp.i
+
+.PHONY : src/robot2_plugin.i
+
+# target to preprocess a source file
+src/robot2_plugin.cpp.i:
+	$(MAKE) -f CMakeFiles/robot2_plugin.dir/build.make CMakeFiles/robot2_plugin.dir/src/robot2_plugin.cpp.i
+.PHONY : src/robot2_plugin.cpp.i
+
+src/robot2_plugin.s: src/robot2_plugin.cpp.s
+
+.PHONY : src/robot2_plugin.s
+
+# target to generate assembly for a file
+src/robot2_plugin.cpp.s:
+	$(MAKE) -f CMakeFiles/robot2_plugin.dir/build.make CMakeFiles/robot2_plugin.dir/src/robot2_plugin.cpp.s
+.PHONY : src/robot2_plugin.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,17 +400,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... platform1_plugin"
-	@echo "... install/local"
-	@echo "... platform_plugin_test"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... gazebo_plugin_sim_uninstall"
 	@echo "... platform2_plugin"
+	@echo "... gazebo_plugin_sim_uninstall"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... platform1_plugin"
+	@echo "... robot1_plugin"
+	@echo "... install"
+	@echo "... robot2_plugin"
 	@echo "... uninstall"
+	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... platform_plugin_test"
+	@echo "... edit_cache"
 	@echo "... src/platform1_plugin.o"
 	@echo "... src/platform1_plugin.i"
 	@echo "... src/platform1_plugin.s"
@@ -340,6 +422,12 @@ help:
 	@echo "... src/platform_plugin_test.o"
 	@echo "... src/platform_plugin_test.i"
 	@echo "... src/platform_plugin_test.s"
+	@echo "... src/robot1_plugin.o"
+	@echo "... src/robot1_plugin.i"
+	@echo "... src/robot1_plugin.s"
+	@echo "... src/robot2_plugin.o"
+	@echo "... src/robot2_plugin.i"
+	@echo "... src/robot2_plugin.s"
 .PHONY : help
 
 

@@ -1029,9 +1029,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/platform1_plugin.dir/DependInfo.cmake"
-  "CMakeFiles/platform_plugin_test.dir/DependInfo.cmake"
-  "CMakeFiles/gazebo_plugin_sim_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/platform2_plugin.dir/DependInfo.cmake"
+  "CMakeFiles/gazebo_plugin_sim_uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/platform1_plugin.dir/DependInfo.cmake"
+  "CMakeFiles/robot1_plugin.dir/DependInfo.cmake"
+  "CMakeFiles/robot2_plugin.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
+  "CMakeFiles/platform_plugin_test.dir/DependInfo.cmake"
   )

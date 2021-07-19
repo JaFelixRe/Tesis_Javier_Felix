@@ -62,6 +62,10 @@ interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_im
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_control_pid_start.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_plat_state.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_control_data.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_limit_switch.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_robot_vel.py
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_robot_state.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_platform_vel_s.c
@@ -70,6 +74,10 @@ interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_im
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_control_pid_start_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_plat_state_s.c
 interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_control_data_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_limit_switch_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/srv/_robot_vel_s.c
+interfaces__py/CMakeFiles/interfaces__py: rosidl_generator_py/interfaces/msg/_robot_state_s.c
 
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/foxy/lib/rosidl_generator_py/rosidl_generator_py
@@ -91,6 +99,10 @@ rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/ControlPidStart.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/PlatState.idl
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/ControlData.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/MotorVelsWArm.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/LimitSwitch.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/srv/RobotVel.idl
+rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interfaces/msg/RobotState.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/javierfr/Tesis_ws/V1/build/interfaces/interfaces__py && /usr/bin/python3 /opt/ros/foxy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -118,6 +130,18 @@ rosidl_generator_py/interfaces/msg/_plat_state.py: rosidl_generator_py/interface
 rosidl_generator_py/interfaces/msg/_control_data.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_control_data.py
 
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_vels_w_arm.py
+
+rosidl_generator_py/interfaces/msg/_limit_switch.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_limit_switch.py
+
+rosidl_generator_py/interfaces/srv/_robot_vel.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_robot_vel.py
+
+rosidl_generator_py/interfaces/msg/_robot_state.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_robot_state.py
+
 rosidl_generator_py/interfaces/srv/__init__.py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/__init__.py
 
@@ -142,6 +166,18 @@ rosidl_generator_py/interfaces/msg/_plat_state_s.c: rosidl_generator_py/interfac
 rosidl_generator_py/interfaces/msg/_control_data_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_control_data_s.c
 
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c
+
+rosidl_generator_py/interfaces/msg/_limit_switch_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_limit_switch_s.c
+
+rosidl_generator_py/interfaces/srv/_robot_vel_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/srv/_robot_vel_s.c
+
+rosidl_generator_py/interfaces/msg/_robot_state_s.c: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interfaces/msg/_robot_state_s.c
+
 interfaces__py: interfaces__py/CMakeFiles/interfaces__py
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 interfaces__py: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -152,6 +188,10 @@ interfaces__py: rosidl_generator_py/interfaces/msg/_img_data.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_control_pid_start.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_plat_state.py
 interfaces__py: rosidl_generator_py/interfaces/msg/_control_data.py
+interfaces__py: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm.py
+interfaces__py: rosidl_generator_py/interfaces/msg/_limit_switch.py
+interfaces__py: rosidl_generator_py/interfaces/srv/_robot_vel.py
+interfaces__py: rosidl_generator_py/interfaces/msg/_robot_state.py
 interfaces__py: rosidl_generator_py/interfaces/srv/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/msg/__init__.py
 interfaces__py: rosidl_generator_py/interfaces/srv/_platform_vel_s.c
@@ -160,6 +200,10 @@ interfaces__py: rosidl_generator_py/interfaces/msg/_img_data_s.c
 interfaces__py: rosidl_generator_py/interfaces/srv/_control_pid_start_s.c
 interfaces__py: rosidl_generator_py/interfaces/msg/_plat_state_s.c
 interfaces__py: rosidl_generator_py/interfaces/msg/_control_data_s.c
+interfaces__py: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c
+interfaces__py: rosidl_generator_py/interfaces/msg/_limit_switch_s.c
+interfaces__py: rosidl_generator_py/interfaces/srv/_robot_vel_s.c
+interfaces__py: rosidl_generator_py/interfaces/msg/_robot_state_s.c
 interfaces__py: interfaces__py/CMakeFiles/interfaces__py.dir/build.make
 
 .PHONY : interfaces__py

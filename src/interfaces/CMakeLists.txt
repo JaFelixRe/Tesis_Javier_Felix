@@ -26,6 +26,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ControlPidStart.srv"
   "msg/PlatState.msg"
   "msg/ControlData.msg"
+  "msg/MotorVelsWArm.msg"
+  "msg/LimitSwitch.msg"
+  "srv/RobotVel.srv"
+  "msg/RobotState.msg"
  )
 
 

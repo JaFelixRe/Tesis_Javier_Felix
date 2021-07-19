@@ -429,6 +429,33 @@ rosidl_generator_c/interfaces/msg/detail/img_data__functions.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/img_data__functions.c.s
 .PHONY : rosidl_generator_c/interfaces/msg/detail/img_data__functions.c.s
 
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.o: rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.o
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.o
+
+# target to build an object file
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.o
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.o
+
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.i: rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.i
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.i
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.i
+
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.s: rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.s
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.s
+.PHONY : rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.c.s
+
 rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.o: rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.c.o
 
 .PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.o
@@ -456,6 +483,33 @@ rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.c.s
 .PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.c.s
 
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.o: rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.o
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.o
+
+# target to build an object file
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.o
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.o
+
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.i: rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.i
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.i
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.i
+
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.s: rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.s
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.s
+.PHONY : rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.c.s
+
 rosidl_generator_c/interfaces/msg/detail/plat_state__functions.o: rosidl_generator_c/interfaces/msg/detail/plat_state__functions.c.o
 
 .PHONY : rosidl_generator_c/interfaces/msg/detail/plat_state__functions.o
@@ -482,6 +536,33 @@ rosidl_generator_c/interfaces/msg/detail/plat_state__functions.s: rosidl_generat
 rosidl_generator_c/interfaces/msg/detail/plat_state__functions.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/plat_state__functions.c.s
 .PHONY : rosidl_generator_c/interfaces/msg/detail/plat_state__functions.c.s
+
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.o: rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.o
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.o
+
+# target to build an object file
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.o
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.o
+
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.i: rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.i
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.i
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.i
+
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.s: rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.s
+
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.s
+.PHONY : rosidl_generator_c/interfaces/msg/detail/robot_state__functions.c.s
 
 rosidl_generator_c/interfaces/srv/detail/control_pid_start__functions.o: rosidl_generator_c/interfaces/srv/detail/control_pid_start__functions.c.o
 
@@ -536,6 +617,33 @@ rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.s: rosidl_gener
 rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.c.s
 .PHONY : rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.c.s
+
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.o: rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.o
+
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.o
+
+# target to build an object file
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.o
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.o
+
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.i: rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.i
+
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.i
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.i
+
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.s: rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.s
+
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_generator_c.dir/build.make CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.s
+.PHONY : rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.c.s
 
 rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o
 
@@ -672,6 +780,33 @@ rosidl_generator_py/interfaces/msg/_img_data_s.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_img_data_s.c.s
 .PHONY : rosidl_generator_py/interfaces/msg/_img_data_s.c.s
 
+rosidl_generator_py/interfaces/msg/_limit_switch_s.o: rosidl_generator_py/interfaces/msg/_limit_switch_s.c.o
+
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.o
+
+# target to build an object file
+rosidl_generator_py/interfaces/msg/_limit_switch_s.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_limit_switch_s.c.o
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.c.o
+
+rosidl_generator_py/interfaces/msg/_limit_switch_s.i: rosidl_generator_py/interfaces/msg/_limit_switch_s.c.i
+
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/interfaces/msg/_limit_switch_s.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_limit_switch_s.c.i
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.c.i
+
+rosidl_generator_py/interfaces/msg/_limit_switch_s.s: rosidl_generator_py/interfaces/msg/_limit_switch_s.c.s
+
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/interfaces/msg/_limit_switch_s.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_limit_switch_s.c.s
+.PHONY : rosidl_generator_py/interfaces/msg/_limit_switch_s.c.s
+
 rosidl_generator_py/interfaces/msg/_motor_vels_s.o: rosidl_generator_py/interfaces/msg/_motor_vels_s.c.o
 
 .PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_s.o
@@ -699,6 +834,33 @@ rosidl_generator_py/interfaces/msg/_motor_vels_s.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_s.c.s
 .PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_s.c.s
 
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.o: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.o
+
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.o
+
+# target to build an object file
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.o
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.o
+
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.i: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.i
+
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.i
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.i
+
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.s: rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.s
+
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.s
+.PHONY : rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.s
+
 rosidl_generator_py/interfaces/msg/_plat_state_s.o: rosidl_generator_py/interfaces/msg/_plat_state_s.c.o
 
 .PHONY : rosidl_generator_py/interfaces/msg/_plat_state_s.o
@@ -725,6 +887,33 @@ rosidl_generator_py/interfaces/msg/_plat_state_s.s: rosidl_generator_py/interfac
 rosidl_generator_py/interfaces/msg/_plat_state_s.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_plat_state_s.c.s
 .PHONY : rosidl_generator_py/interfaces/msg/_plat_state_s.c.s
+
+rosidl_generator_py/interfaces/msg/_robot_state_s.o: rosidl_generator_py/interfaces/msg/_robot_state_s.c.o
+
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.o
+
+# target to build an object file
+rosidl_generator_py/interfaces/msg/_robot_state_s.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_robot_state_s.c.o
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.c.o
+
+rosidl_generator_py/interfaces/msg/_robot_state_s.i: rosidl_generator_py/interfaces/msg/_robot_state_s.c.i
+
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/interfaces/msg/_robot_state_s.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_robot_state_s.c.i
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.c.i
+
+rosidl_generator_py/interfaces/msg/_robot_state_s.s: rosidl_generator_py/interfaces/msg/_robot_state_s.c.s
+
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/interfaces/msg/_robot_state_s.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_robot_state_s.c.s
+.PHONY : rosidl_generator_py/interfaces/msg/_robot_state_s.c.s
 
 rosidl_generator_py/interfaces/srv/_control_pid_start_s.o: rosidl_generator_py/interfaces/srv/_control_pid_start_s.c.o
 
@@ -780,6 +969,33 @@ rosidl_generator_py/interfaces/srv/_platform_vel_s.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_platform_vel_s.c.s
 .PHONY : rosidl_generator_py/interfaces/srv/_platform_vel_s.c.s
 
+rosidl_generator_py/interfaces/srv/_robot_vel_s.o: rosidl_generator_py/interfaces/srv/_robot_vel_s.c.o
+
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.o
+
+# target to build an object file
+rosidl_generator_py/interfaces/srv/_robot_vel_s.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_robot_vel_s.c.o
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.c.o
+
+rosidl_generator_py/interfaces/srv/_robot_vel_s.i: rosidl_generator_py/interfaces/srv/_robot_vel_s.c.i
+
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/interfaces/srv/_robot_vel_s.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_robot_vel_s.c.i
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.c.i
+
+rosidl_generator_py/interfaces/srv/_robot_vel_s.s: rosidl_generator_py/interfaces/srv/_robot_vel_s.c.s
+
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/interfaces/srv/_robot_vel_s.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__python.dir/build.make CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_robot_vel_s.c.s
+.PHONY : rosidl_generator_py/interfaces/srv/_robot_vel_s.c.s
+
 rosidl_typesupport_c/interfaces/msg/control_data__type_support.o: rosidl_typesupport_c/interfaces/msg/control_data__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/interfaces/msg/control_data__type_support.o
@@ -834,6 +1050,33 @@ rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/interfaces/msg/img_data__type_support.cpp.s
 
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.o: rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.o
+
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.i: rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.i
+
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.s: rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.cpp.s
+
 rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.o: rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.o
@@ -861,6 +1104,33 @@ rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.cpp.s
 
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.o: rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.i: rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.s: rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+
 rosidl_typesupport_c/interfaces/msg/plat_state__type_support.o: rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/interfaces/msg/plat_state__type_support.o
@@ -887,6 +1157,33 @@ rosidl_typesupport_c/interfaces/msg/plat_state__type_support.s: rosidl_typesuppo
 rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/interfaces/msg/plat_state__type_support.cpp.s
+
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.o: rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.o
+
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.i: rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.i
+
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.s: rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/interfaces/msg/robot_state__type_support.cpp.s
 
 rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.o: rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.cpp.o
 
@@ -942,6 +1239,33 @@ rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.cpp.s
 
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.o: rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.o
+
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.i: rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.i
+
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.s: rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.cpp.s
+
 rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.o: rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.o
@@ -996,6 +1320,33 @@ rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.cpp.s
 
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.o: rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.o
+
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.i: rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.i
+
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.s: rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.cpp.s
+
 rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.o: rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.o
@@ -1023,6 +1374,33 @@ rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.cpp.s
 
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.o: rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.o
+
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.i: rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.i
+
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.s: rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.cpp.s
+
 rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.o: rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.o
@@ -1049,6 +1427,33 @@ rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.s: rosidl_typesup
 rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.cpp.s
+
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.o: rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.o
+
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.i: rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.i
+
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.s: rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.cpp.s
 
 rosidl_typesupport_cpp/interfaces/srv/control_pid_start__type_support.o: rosidl_typesupport_cpp/interfaces/srv/control_pid_start__type_support.cpp.o
 
@@ -1104,6 +1509,33 @@ rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.cpp.s
 
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.o: rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.o
+
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.i: rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.i
+
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.s: rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.o
@@ -1158,6 +1590,33 @@ rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.cpp
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.i: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.s: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.o
@@ -1185,6 +1644,33 @@ rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.c
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.i: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.s: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.o
@@ -1211,6 +1697,33 @@ rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.s
 rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.i: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.s: rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_c/interfaces/srv/detail/control_pid_start__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/srv/detail/control_pid_start__type_support_c.cpp.o
 
@@ -1266,6 +1779,33 @@ rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c.cpp.s
 
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.o: rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.i: rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.s: rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.o
@@ -1320,6 +1860,33 @@ rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__typ
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.i: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.s: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.o
@@ -1347,6 +1914,33 @@ rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__t
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.i: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.s: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.o
@@ -1373,6 +1967,33 @@ rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__t
 rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.i: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.s: rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/control_pid_start__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/control_pid_start__type_support.cpp.o
 
@@ -1428,6 +2049,33 @@ rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel_
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.o: rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.i: rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.s: rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.o
@@ -1482,6 +2130,33 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.c.s
 
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.o
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.i: rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.i
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.s: rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.c.s
+
 rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.o
@@ -1509,6 +2184,33 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_suppor
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.c.s
 
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.o
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.i: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.i
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.s: rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.c.s
+
 rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.o
@@ -1535,6 +2237,33 @@ rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_suppor
 rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.c.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.c.s
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.o: rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.o
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.i: rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.i
+
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.s: rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.c.s
 
 rosidl_typesupport_introspection_c/interfaces/srv/detail/control_pid_start__type_support.o: rosidl_typesupport_introspection_c/interfaces/srv/detail/control_pid_start__type_support.c.o
 
@@ -1590,6 +2319,33 @@ rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_supp
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_support.c.s
 
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.o: rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.o
+
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.i: rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.i
+
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.s: rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.o
@@ -1644,6 +2400,33 @@ rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_suppor
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.i: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.s: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.o
@@ -1671,6 +2454,33 @@ rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_supp
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.i: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.s: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.cpp.s
+
 rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.o
@@ -1697,6 +2507,33 @@ rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_supp
 rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.i: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.s: rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.cpp.s
 
 rosidl_typesupport_introspection_cpp/interfaces/srv/detail/control_pid_start__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/srv/detail/control_pid_start__type_support.cpp.o
 
@@ -1752,6 +2589,33 @@ rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_su
 	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_support.cpp.s
 
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.o: rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.i: rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.s: rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1787,18 +2651,30 @@ help:
 	@echo "... rosidl_generator_c/interfaces/msg/detail/img_data__functions.o"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/img_data__functions.i"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/img_data__functions.s"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.o"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.i"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/limit_switch__functions.s"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.o"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.i"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels__functions.s"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.o"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.i"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/motor_vels_w_arm__functions.s"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/plat_state__functions.o"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/plat_state__functions.i"
 	@echo "... rosidl_generator_c/interfaces/msg/detail/plat_state__functions.s"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/robot_state__functions.o"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/robot_state__functions.i"
+	@echo "... rosidl_generator_c/interfaces/msg/detail/robot_state__functions.s"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/control_pid_start__functions.o"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/control_pid_start__functions.i"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/control_pid_start__functions.s"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.o"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.i"
 	@echo "... rosidl_generator_c/interfaces/srv/detail/platform_vel__functions.s"
+	@echo "... rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.o"
+	@echo "... rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.i"
+	@echo "... rosidl_generator_c/interfaces/srv/detail/robot_vel__functions.s"
 	@echo "... rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.s"
@@ -1814,126 +2690,210 @@ help:
 	@echo "... rosidl_generator_py/interfaces/msg/_img_data_s.o"
 	@echo "... rosidl_generator_py/interfaces/msg/_img_data_s.i"
 	@echo "... rosidl_generator_py/interfaces/msg/_img_data_s.s"
+	@echo "... rosidl_generator_py/interfaces/msg/_limit_switch_s.o"
+	@echo "... rosidl_generator_py/interfaces/msg/_limit_switch_s.i"
+	@echo "... rosidl_generator_py/interfaces/msg/_limit_switch_s.s"
 	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_s.o"
 	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_s.i"
 	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_s.s"
+	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.o"
+	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.i"
+	@echo "... rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.s"
 	@echo "... rosidl_generator_py/interfaces/msg/_plat_state_s.o"
 	@echo "... rosidl_generator_py/interfaces/msg/_plat_state_s.i"
 	@echo "... rosidl_generator_py/interfaces/msg/_plat_state_s.s"
+	@echo "... rosidl_generator_py/interfaces/msg/_robot_state_s.o"
+	@echo "... rosidl_generator_py/interfaces/msg/_robot_state_s.i"
+	@echo "... rosidl_generator_py/interfaces/msg/_robot_state_s.s"
 	@echo "... rosidl_generator_py/interfaces/srv/_control_pid_start_s.o"
 	@echo "... rosidl_generator_py/interfaces/srv/_control_pid_start_s.i"
 	@echo "... rosidl_generator_py/interfaces/srv/_control_pid_start_s.s"
 	@echo "... rosidl_generator_py/interfaces/srv/_platform_vel_s.o"
 	@echo "... rosidl_generator_py/interfaces/srv/_platform_vel_s.i"
 	@echo "... rosidl_generator_py/interfaces/srv/_platform_vel_s.s"
+	@echo "... rosidl_generator_py/interfaces/srv/_robot_vel_s.o"
+	@echo "... rosidl_generator_py/interfaces/srv/_robot_vel_s.i"
+	@echo "... rosidl_generator_py/interfaces/srv/_robot_vel_s.s"
 	@echo "... rosidl_typesupport_c/interfaces/msg/control_data__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/msg/control_data__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/msg/control_data__type_support.s"
 	@echo "... rosidl_typesupport_c/interfaces/msg/img_data__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/msg/img_data__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/msg/img_data__type_support.s"
+	@echo "... rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.o"
+	@echo "... rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.i"
+	@echo "... rosidl_typesupport_c/interfaces/msg/limit_switch__type_support.s"
 	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels__type_support.s"
+	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.o"
+	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.i"
+	@echo "... rosidl_typesupport_c/interfaces/msg/motor_vels_w_arm__type_support.s"
 	@echo "... rosidl_typesupport_c/interfaces/msg/plat_state__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/msg/plat_state__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/msg/plat_state__type_support.s"
+	@echo "... rosidl_typesupport_c/interfaces/msg/robot_state__type_support.o"
+	@echo "... rosidl_typesupport_c/interfaces/msg/robot_state__type_support.i"
+	@echo "... rosidl_typesupport_c/interfaces/msg/robot_state__type_support.s"
 	@echo "... rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/srv/control_pid_start__type_support.s"
 	@echo "... rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.o"
 	@echo "... rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.i"
 	@echo "... rosidl_typesupport_c/interfaces/srv/platform_vel__type_support.s"
+	@echo "... rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.o"
+	@echo "... rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.i"
+	@echo "... rosidl_typesupport_c/interfaces/srv/robot_vel__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/control_data__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/img_data__type_support.s"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.o"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.i"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/limit_switch__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels__type_support.s"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.o"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.i"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/motor_vels_w_arm__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/msg/plat_state__type_support.s"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.o"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.i"
+	@echo "... rosidl_typesupport_cpp/interfaces/msg/robot_state__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/control_pid_start__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/control_pid_start__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/control_pid_start__type_support.s"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.o"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.i"
 	@echo "... rosidl_typesupport_cpp/interfaces/srv/platform_vel__type_support.s"
+	@echo "... rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.o"
+	@echo "... rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.i"
+	@echo "... rosidl_typesupport_cpp/interfaces/srv/robot_vel__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/control_data__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/img_data__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/limit_switch__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/motor_vels_w_arm__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/plat_state__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/msg/detail/robot_state__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/control_pid_start__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/control_pid_start__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/control_pid_start__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/platform_vel__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/interfaces/srv/detail/robot_vel__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/control_data__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/img_data__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/limit_switch__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/motor_vels_w_arm__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/plat_state__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/robot_state__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/control_pid_start__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/control_pid_start__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/control_pid_start__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/platform_vel__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/robot_vel__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/control_data__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/img_data__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/limit_switch__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/motor_vels_w_arm__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/plat_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/msg/detail/robot_state__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/control_pid_start__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/control_pid_start__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/control_pid_start__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/platform_vel__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/interfaces/srv/detail/robot_vel__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/control_data__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/img_data__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/limit_switch__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/motor_vels_w_arm__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/plat_state__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/msg/detail/robot_state__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/control_pid_start__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/control_pid_start__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/control_pid_start__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/platform_vel__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/interfaces/srv/detail/robot_vel__type_support.s"
 .PHONY : help
 
 

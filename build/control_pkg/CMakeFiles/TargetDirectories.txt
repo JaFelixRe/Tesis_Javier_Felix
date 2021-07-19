@@ -7,5 +7,6 @@
 /home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/control_pid_p2_node.dir
 /home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/control_pid_p1_node.dir
 /home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/install/strip.dir
+/home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/control_pid_r1_node.dir
 /home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/control_pkg_uninstall.dir
 /home/javierfr/Tesis_ws/V1/build/control_pkg/CMakeFiles/uninstall.dir

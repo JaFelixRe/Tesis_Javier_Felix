@@ -194,6 +194,19 @@ control_pid_p1_node/fast:
 .PHONY : control_pid_p1_node/fast
 
 #=============================================================================
+# Target rules for targets named control_pid_r1_node
+
+# Build rule for target.
+control_pid_r1_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 control_pid_r1_node
+.PHONY : control_pid_r1_node
+
+# fast build rule for target.
+control_pid_r1_node/fast:
+	$(MAKE) -f CMakeFiles/control_pid_r1_node.dir/build.make CMakeFiles/control_pid_r1_node.dir/build
+.PHONY : control_pid_r1_node/fast
+
+#=============================================================================
 # Target rules for targets named control_pkg_uninstall
 
 # Build rule for target.
@@ -273,6 +286,33 @@ src/control_pid_p2_node.cpp.s:
 	$(MAKE) -f CMakeFiles/control_pid_p2_node.dir/build.make CMakeFiles/control_pid_p2_node.dir/src/control_pid_p2_node.cpp.s
 .PHONY : src/control_pid_p2_node.cpp.s
 
+src/control_pid_r1_node.o: src/control_pid_r1_node.cpp.o
+
+.PHONY : src/control_pid_r1_node.o
+
+# target to build an object file
+src/control_pid_r1_node.cpp.o:
+	$(MAKE) -f CMakeFiles/control_pid_r1_node.dir/build.make CMakeFiles/control_pid_r1_node.dir/src/control_pid_r1_node.cpp.o
+.PHONY : src/control_pid_r1_node.cpp.o
+
+src/control_pid_r1_node.i: src/control_pid_r1_node.cpp.i
+
+.PHONY : src/control_pid_r1_node.i
+
+# target to preprocess a source file
+src/control_pid_r1_node.cpp.i:
+	$(MAKE) -f CMakeFiles/control_pid_r1_node.dir/build.make CMakeFiles/control_pid_r1_node.dir/src/control_pid_r1_node.cpp.i
+.PHONY : src/control_pid_r1_node.cpp.i
+
+src/control_pid_r1_node.s: src/control_pid_r1_node.cpp.s
+
+.PHONY : src/control_pid_r1_node.s
+
+# target to generate assembly for a file
+src/control_pid_r1_node.cpp.s:
+	$(MAKE) -f CMakeFiles/control_pid_r1_node.dir/build.make CMakeFiles/control_pid_r1_node.dir/src/control_pid_r1_node.cpp.s
+.PHONY : src/control_pid_r1_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,6 +328,7 @@ help:
 	@echo "... control_pid_p2_node"
 	@echo "... control_pid_p1_node"
 	@echo "... install/strip"
+	@echo "... control_pid_r1_node"
 	@echo "... control_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... src/control_pid_p1_node.o"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/control_pid_p2_node.o"
 	@echo "... src/control_pid_p2_node.i"
 	@echo "... src/control_pid_p2_node.s"
+	@echo "... src/control_pid_r1_node.o"
+	@echo "... src/control_pid_r1_node.i"
+	@echo "... src/control_pid_r1_node.s"
 .PHONY : help
 
 

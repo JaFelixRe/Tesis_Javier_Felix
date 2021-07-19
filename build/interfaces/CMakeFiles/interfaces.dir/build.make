@@ -63,6 +63,12 @@ CMakeFiles/interfaces: rosidl_cmake/srv/ControlPidStart_Request.msg
 CMakeFiles/interfaces: rosidl_cmake/srv/ControlPidStart_Response.msg
 CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/msg/PlatState.msg
 CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/msg/ControlData.msg
+CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/msg/MotorVelsWArm.msg
+CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/msg/LimitSwitch.msg
+CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/srv/RobotVel.srv
+CMakeFiles/interfaces: rosidl_cmake/srv/RobotVel_Request.msg
+CMakeFiles/interfaces: rosidl_cmake/srv/RobotVel_Response.msg
+CMakeFiles/interfaces: /home/javierfr/Tesis_ws/V1/src/interfaces/msg/RobotState.msg
 
 
 interfaces: CMakeFiles/interfaces

@@ -68,39 +68,15 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
+.PHONY : list_install_components/fast
 
 # Special rule for the target install
 install: preinstall
@@ -114,15 +90,16 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
+# Special rule for the target test
+test/fast: test
 
-.PHONY : list_install_components/fast
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -134,6 +111,29 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,43 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named platform2_vel_test_client
+# Target rules for targets named inv_kinematics_pkg_uninstall
 
 # Build rule for target.
-platform2_vel_test_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform2_vel_test_client
-.PHONY : platform2_vel_test_client
+inv_kinematics_pkg_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 inv_kinematics_pkg_uninstall
+.PHONY : inv_kinematics_pkg_uninstall
 
 # fast build rule for target.
-platform2_vel_test_client/fast:
-	$(MAKE) -f CMakeFiles/platform2_vel_test_client.dir/build.make CMakeFiles/platform2_vel_test_client.dir/build
-.PHONY : platform2_vel_test_client/fast
-
-#=============================================================================
-# Target rules for targets named platform2_vel_server
-
-# Build rule for target.
-platform2_vel_server: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform2_vel_server
-.PHONY : platform2_vel_server
-
-# fast build rule for target.
-platform2_vel_server/fast:
-	$(MAKE) -f CMakeFiles/platform2_vel_server.dir/build.make CMakeFiles/platform2_vel_server.dir/build
-.PHONY : platform2_vel_server/fast
-
-#=============================================================================
-# Target rules for targets named platform1_vel_test_client
-
-# Build rule for target.
-platform1_vel_test_client: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 platform1_vel_test_client
-.PHONY : platform1_vel_test_client
-
-# fast build rule for target.
-platform1_vel_test_client/fast:
-	$(MAKE) -f CMakeFiles/platform1_vel_test_client.dir/build.make CMakeFiles/platform1_vel_test_client.dir/build
-.PHONY : platform1_vel_test_client/fast
+inv_kinematics_pkg_uninstall/fast:
+	$(MAKE) -f CMakeFiles/inv_kinematics_pkg_uninstall.dir/build.make CMakeFiles/inv_kinematics_pkg_uninstall.dir/build
+.PHONY : inv_kinematics_pkg_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named platform1_vel_server
@@ -220,17 +194,30 @@ platform1_vel_server/fast:
 .PHONY : platform1_vel_server/fast
 
 #=============================================================================
-# Target rules for targets named inv_kinematics_pkg_uninstall
+# Target rules for targets named platform2_vel_server
 
 # Build rule for target.
-inv_kinematics_pkg_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 inv_kinematics_pkg_uninstall
-.PHONY : inv_kinematics_pkg_uninstall
+platform2_vel_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform2_vel_server
+.PHONY : platform2_vel_server
 
 # fast build rule for target.
-inv_kinematics_pkg_uninstall/fast:
-	$(MAKE) -f CMakeFiles/inv_kinematics_pkg_uninstall.dir/build.make CMakeFiles/inv_kinematics_pkg_uninstall.dir/build
-.PHONY : inv_kinematics_pkg_uninstall/fast
+platform2_vel_server/fast:
+	$(MAKE) -f CMakeFiles/platform2_vel_server.dir/build.make CMakeFiles/platform2_vel_server.dir/build
+.PHONY : platform2_vel_server/fast
+
+#=============================================================================
+# Target rules for targets named platform2_vel_test_client
+
+# Build rule for target.
+platform2_vel_test_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform2_vel_test_client
+.PHONY : platform2_vel_test_client
+
+# fast build rule for target.
+platform2_vel_test_client/fast:
+	$(MAKE) -f CMakeFiles/platform2_vel_test_client.dir/build.make CMakeFiles/platform2_vel_test_client.dir/build
+.PHONY : platform2_vel_test_client/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -244,6 +231,32 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named platform1_vel_test_client
+
+# Build rule for target.
+platform1_vel_test_client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 platform1_vel_test_client
+.PHONY : platform1_vel_test_client
+
+# fast build rule for target.
+platform1_vel_test_client/fast:
+	$(MAKE) -f CMakeFiles/platform1_vel_test_client.dir/build.make CMakeFiles/platform1_vel_test_client.dir/build
+.PHONY : platform1_vel_test_client/fast
+
+#=============================================================================
+# Target rules for targets named robot1_vel_server
+
+# Build rule for target.
+robot1_vel_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 robot1_vel_server
+.PHONY : robot1_vel_server
+
+# fast build rule for target.
+robot1_vel_server/fast:
+	$(MAKE) -f CMakeFiles/robot1_vel_server.dir/build.make CMakeFiles/robot1_vel_server.dir/build
+.PHONY : robot1_vel_server/fast
 
 src/platform1_vel_server.o: src/platform1_vel_server.cpp.o
 
@@ -353,6 +366,33 @@ src/platform2_vel_test_client.cpp.s:
 	$(MAKE) -f CMakeFiles/platform2_vel_test_client.dir/build.make CMakeFiles/platform2_vel_test_client.dir/src/platform2_vel_test_client.cpp.s
 .PHONY : src/platform2_vel_test_client.cpp.s
 
+src/robot1_vel_server.o: src/robot1_vel_server.cpp.o
+
+.PHONY : src/robot1_vel_server.o
+
+# target to build an object file
+src/robot1_vel_server.cpp.o:
+	$(MAKE) -f CMakeFiles/robot1_vel_server.dir/build.make CMakeFiles/robot1_vel_server.dir/src/robot1_vel_server.cpp.o
+.PHONY : src/robot1_vel_server.cpp.o
+
+src/robot1_vel_server.i: src/robot1_vel_server.cpp.i
+
+.PHONY : src/robot1_vel_server.i
+
+# target to preprocess a source file
+src/robot1_vel_server.cpp.i:
+	$(MAKE) -f CMakeFiles/robot1_vel_server.dir/build.make CMakeFiles/robot1_vel_server.dir/src/robot1_vel_server.cpp.i
+.PHONY : src/robot1_vel_server.cpp.i
+
+src/robot1_vel_server.s: src/robot1_vel_server.cpp.s
+
+.PHONY : src/robot1_vel_server.s
+
+# target to generate assembly for a file
+src/robot1_vel_server.cpp.s:
+	$(MAKE) -f CMakeFiles/robot1_vel_server.dir/build.make CMakeFiles/robot1_vel_server.dir/src/robot1_vel_server.cpp.s
+.PHONY : src/robot1_vel_server.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,18 +400,19 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... platform2_vel_test_client"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... platform2_vel_server"
-	@echo "... platform1_vel_test_client"
-	@echo "... platform1_vel_server"
 	@echo "... inv_kinematics_pkg_uninstall"
+	@echo "... platform1_vel_server"
+	@echo "... platform2_vel_server"
+	@echo "... list_install_components"
+	@echo "... install"
+	@echo "... platform2_vel_test_client"
 	@echo "... uninstall"
+	@echo "... test"
+	@echo "... platform1_vel_test_client"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... robot1_vel_server"
+	@echo "... install/local"
 	@echo "... src/platform1_vel_server.o"
 	@echo "... src/platform1_vel_server.i"
 	@echo "... src/platform1_vel_server.s"
@@ -384,6 +425,9 @@ help:
 	@echo "... src/platform2_vel_test_client.o"
 	@echo "... src/platform2_vel_test_client.i"
 	@echo "... src/platform2_vel_test_client.s"
+	@echo "... src/robot1_vel_server.o"
+	@echo "... src/robot1_vel_server.i"
+	@echo "... src/robot1_vel_server.s"
 .PHONY : help
 
 

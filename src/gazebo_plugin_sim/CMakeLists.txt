@@ -126,6 +126,53 @@ if(ENABLE_PROFILER)
 endif()
 
 
+# Robot 1 Pulgin
+add_library(robot1_plugin SHARED
+  src/robot1_plugin.cpp
+)
+target_include_directories(robot1_plugin PUBLIC include)
+ament_target_dependencies(robot1_plugin
+  "gazebo_dev"
+  "gazebo_ros"
+  "geometry_msgs"
+  "nav_msgs"
+  "rclcpp"
+  "tf2"
+  "tf2_geometry_msgs"
+  "tf2_ros"
+  "std_msgs"
+  "interfaces"
+)
+ament_export_libraries(robot1_plugin)
+if(ENABLE_PROFILER)
+  target_include_directories(robot1_plugin PUBLIC ${ignition-common3_INCLUDE_DIRS})
+  target_link_libraries(robot1_plugin ${ignition-common3_LIBRARIES})
+endif()
+
+# Robot 2 Pulgin
+add_library(robot2_plugin SHARED
+  src/robot2_plugin.cpp
+)
+target_include_directories(robot2_plugin PUBLIC include)
+ament_target_dependencies(robot2_plugin
+  "gazebo_dev"
+  "gazebo_ros"
+  "geometry_msgs"
+  "nav_msgs"
+  "rclcpp"
+  "tf2"
+  "tf2_geometry_msgs"
+  "tf2_ros"
+  "std_msgs"
+  "interfaces"
+)
+ament_export_libraries(robot2_plugin)
+if(ENABLE_PROFILER)
+  target_include_directories(robot2_plugin PUBLIC ${ignition-common3_INCLUDE_DIRS})
+  target_link_libraries(robot2_plugin ${ignition-common3_LIBRARIES})
+endif()
+
+
 ament_export_include_directories(include)
 ament_export_dependencies(rclcpp)
 ament_export_dependencies(gazebo_dev)
@@ -157,6 +204,8 @@ install(TARGETS
   platform_plugin_test
   platform1_plugin
   platform2_plugin
+  robot1_plugin
+  robot2_plugin
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)

@@ -52,11 +52,20 @@ ament_target_dependencies(
   interfaces
   )
 
+add_executable(robot1_vel_server src/robot1_vel_server.cpp)
+ament_target_dependencies(
+  robot1_vel_server
+  rclcpp
+  interfaces
+  geometry_msgs
+  )
+
 install(TARGETS
   platform1_vel_server
   platform1_vel_test_client
   platform2_vel_server
   platform2_vel_test_client
+  robot1_vel_server
   DESTINATION lib/${PROJECT_NAME})
 
 

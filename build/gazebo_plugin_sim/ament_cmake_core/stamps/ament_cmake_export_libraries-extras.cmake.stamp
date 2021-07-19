@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_libraries/cmake/template/ament_cmake_export_libraries.cmake.in
 
-set(_exported_libraries "platform_plugin_test;platform1_plugin;platform2_plugin")
+set(_exported_libraries "platform_plugin_test;platform1_plugin;platform2_plugin;robot1_plugin;robot2_plugin")
 set(_exported_library_names "")
 
 # populate gazebo_plugin_sim_LIBRARIES

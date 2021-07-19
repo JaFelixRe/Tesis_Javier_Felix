@@ -6,10 +6,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_control_data_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_control_data_s.c.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_img_data_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_img_data_s.c.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_limit_switch_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_limit_switch_s.c.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_s.c.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_motor_vels_w_arm_s.c.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_plat_state_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_plat_state_s.c.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/msg/_robot_state_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_robot_state_s.c.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_control_pid_start_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_control_pid_start_s.c.o"
   "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_platform_vel_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_platform_vel_s.c.o"
+  "/home/javierfr/Tesis_ws/V1/build/interfaces/rosidl_generator_py/interfaces/srv/_robot_vel_s.c" "/home/javierfr/Tesis_ws/V1/build/interfaces/CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/srv/_robot_vel_s.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

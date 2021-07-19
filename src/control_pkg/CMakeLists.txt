@@ -34,9 +34,17 @@ ament_target_dependencies(
   interfaces
   )
 
+add_executable(control_pid_r1_node src/control_pid_r1_node.cpp)
+ament_target_dependencies(
+  control_pid_r1_node
+  rclcpp
+  interfaces
+  )
+
 install(TARGETS
   control_pid_p1_node
   control_pid_p2_node
+  control_pid_r1_node
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
